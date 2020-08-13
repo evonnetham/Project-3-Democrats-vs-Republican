@@ -1,4 +1,4 @@
-# Project 3: Web APIs & Classification
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & Classification
 
 _Author: Evonne Tham_
 
@@ -33,6 +33,12 @@ With the help of NLP (CountVectorizer and TfidVectorizer) to split comments up i
 With GridSearch, it is found that Multinomial Naive Bayes with TfidfVectorizer worked fairly well with an accuracy score of close to 80%, even though both subreddits were fairly similar in nature.
 
 By classifying posts to subreddits, it could be very helpful for targeted advertising, as one could find out what topics most interest a certain user.
+
+## Content
+
+- [1. Data Collection](./codes/01_Data_Collection.ipynb)
+- [2. Data Cleaning and Exploratory Data Analysis](./codes/02_Data_Cleaning_and_EDA.ipynb)
+- [3. Preprocessing and Modeling](./codes/03_Preprocessing_and_Modeling.ipynb)
 
 ## Data Dictionary
 
