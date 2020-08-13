@@ -14,6 +14,9 @@ However, post from subreddits are in natural language which computer cannot unde
 
 Ultimately, with this the model, it can help individuals such as the voters or the campaigners as they are more likely to make sound decision based or to discover compaign opportunities respectively.
 
+##### Tools and Libraries Used:
+requests, python, pandas, numpy, seaborn, matplotlib, BeautifulSoup, nltk, scikit-learn, wordcloud
+
 ## Executive Summary
 
 1. ***“Trump rally gives Fox News largest Saturday night audience in its history”***
