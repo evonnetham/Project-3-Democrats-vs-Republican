@@ -1,13 +1,12 @@
-<img src="http://imgur.com/1ZcRyrc.png" style="float: left; margin: 20px; height: 55px">
-
 # Project 3: Web APIs & Classification
 
 _Author: Evonne Tham_
 
----
+
 
 ## Problem Statement
----
+
+![](https://i.ytimg.com/vi/5SyLy-0Qgnw/maxresdefault.jpg)
 
 As the rally is nearing, everyone, whether you are a politician or a citizen, everyone starts wonder about where are we in terms of poll standing? In order to look into that to get some perspective, posts from two subreddits, r/Democrats and r/Republicans will be used to analyze.
 
@@ -16,7 +15,7 @@ However, post from subreddits are in natural language which computer cannot unde
 Ultimately, with this the model, it can help individuals such as the voters or the campaigners as they are more likely to make sound decision based or to discover compaign opportunities respectively.
 
 ## Executive Summary
----
+
 1. ***“Trump rally gives Fox News largest Saturday night audience in its history”***
 2. ***”That feel when the million person rally you expected has only 6,150 people”***
 
@@ -37,8 +36,6 @@ By classifying posts to subreddits, it could be very helpful for targeted advert
 
 ## Data Dictionary
 
-------
-
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |id|*object*|df|Unique id of a comment|
@@ -51,7 +48,7 @@ By classifying posts to subreddits, it could be very helpful for targeted advert
 
 
 ## Conclusion and Recommendation 
----
+
 CountVectorizer and TfidfVectorizer from scikit-learn were used to convert the text data to numeric features. CountVectorizer achieved a better accuracy score for a baseline logistic regression model. Logistic regression, Multinomial Naive Bayes and KNearest-Neighbour models were tested. With the help of GridSearch, Multinomial Naive Bayes with TF-IDF Vectorizer performed the best where it achieved the best accuracy scores of 0.84 and 0.73 for train and test set respectively.
 
 According to the results, out of 446 comments from the testing set, 121 comments were predicted wrongly. As these post consist of words are very generic, hence it tend to classify wrongly. 
